@@ -1,0 +1,71 @@
+html, body {
+	height: 100%;
+	background-color: #5C5C5C;
+}
+.Fon {
+	background-image: url(Img/Background.png);
+	height: 100%;
+	width: 50%;
+	margin: 0 25% 0 25%;
+}
+@keyframes Red {
+	from {background-color: black;}
+	to {background-color: red;}
+}
+@keyframes Yellow {
+	from {background-color: black;}
+	to {background-color: yellow;}
+}
+@keyframes Green {
+	from {background-color: black;}
+	to {background-color: green;}
+}
+
+.Green {
+	margin: 0% 43% 5% 43%;
+	width: 20%;
+	height: 20%;
+	background-color: black;
+	border-radius: 50%;
+	animation-name: Green;
+	animation-duration: 3s;
+	animation-iteration-count: 2;
+	transition: width 2s, height 2s;
+	font-size: 1000%;
+	color: grey;
+	text-align: center;
+}
+.Yellow {
+	margin: 0% 43% 5% 43%;
+	width: 20%;
+	height: 20%;
+	background-color: black;
+	border-radius: 50%;
+	animation-name: Yellow;
+	animation-duration: 3s;
+	animation-delay: 6s;
+	transition: width 2s, height 2s;
+	font-size: 1000%;
+	color: grey;
+	text-align: center;
+}
+.Red {
+	margin: 0% 43% 5% 43%;
+	width: 20%;
+	height: 20%;
+	background-color: black;
+	border-radius: 50%;
+	animation-name: Red;
+	animation-duration: 3s;
+	animation-delay: 9s;
+	transition: width 2s, height 2s;
+	font-size: 1000%;
+	color: grey;
+	text-align: center;
+}
+
+div.special:hover {
+  width: 25%;
+  height: 25%;
+  transform: rotate(20deg);
+}
